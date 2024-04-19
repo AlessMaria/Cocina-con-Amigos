@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./Img/Fondito.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body-container-aless {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: none;
+    
+}
+
+.body-item-aless {
+    /*background-size: 25%;*/
+    img {
+        width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+        height: auto; /* Mantendrá la proporción original */
+    }
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:aqua;
+}
+
+/* Desplegable para búsqueda */
+.search-dropdown {
+    position: relative;
+    padding-left: 10px;
+}
+
+.search-dropdown input[type="text"] {
+    padding: 5px;
+    border: 1px solid aqua;
+    border-radius: 3px;
+}
+
+.search-dropdown .search-results {
+    position: absolute;
+    top: 100%;
+    left: 10;
+    background-color:aqua;
+    border: 1px solid rgb(15, 15, 15);
+    border-top: none;
+    width: 200px;
+    display: none;
+}
+
+.search-dropdown .search-results a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+img {
+    max-height: 100px; /* Ajusta la altura máxima del logo */
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: aqua;
+}
+
+p {
+    font-size: 10px;
+    color:aqua;
+}
+
+.p-nosotros {
+    font-size: 16px;
+    color:aqua
+}
+
+.p-aless {
+    font-size: 16px;
+    color:aqua 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 150px;
+    border-bottom: none;
+
+}
+
+.footer-item {
+    /*background-size: 25%;*/
+    align-items: center;
+    
+}
+
+h3 {
+    font-size: 12px;
+    margin: 0;
+    color: aqua;
+}
+
+ol {
+    font-size: 16px;
+    color:aqua;
+}
+
+
+
