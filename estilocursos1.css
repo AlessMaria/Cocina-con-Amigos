@@ -1,0 +1,67 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.logo3_mili{
+  width: 70px;
+  margin-top: 10px;
+  margin-left: 15px;
+  }
+
+
+p{
+  text-align: center;
+  align-content: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  grid-column: 2;
+  padding-right: 40px;
+  height: 150px;
+  
+
+}
+
+.cursos{
+
+  background-image: url("./imgmili/fondo1.jpg");
+  background-size: cover;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  color: rgb(222, 224, 222);
+
+
+}
+
+.formcursos{
+  display: inline-flex;
+  flex-direction: column;
+  grid-column: 2;
+  height: 300px;
+  margin-left: 150px;
+
+}
+
+
+label{
+  text-transform: uppercase;
+  font-weight: bold;
+
+
+}
+
+
+select{
+  width: 300px;
+  height: 25px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+footer{
+  height: 100px;
+}
+
+
