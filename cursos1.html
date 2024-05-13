@@ -1,58 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cursos</title>
-    <link rel="stylesheet" href="estilocursos1.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursos</title>
+  <link rel="stylesheet" href="estilocursos1.css">
 </head>
+
 <body>
-      <header>
+  <header>
 
-        <img src="./imgmili/logo3.png" alt="Amigos en la Cocina" width="100" height="100">
+    <img src="./imgmili/logo3.png" alt="Amigos en la Cocina" width="100" height="100">
 
-    </header>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="/index.html">Inicio</a></li>
+      <li><a href="/Nosotros.html">Nosotros</a></li>
+      <li><a href="*/newsletter.html">Newsletter</a></li>
+      <li><a href="*/contacto.html">Contacto</a></li>
+      <li><a href="*/registro.html">Registro</a></li>
+    </ul>
+    <div class="search-dropdown">
+      <input type="text" placeholder="Buscar...">
+      <div class="search-results">
+        <!-- Aquí puedes agregar los resultados de búsqueda -->
+        <a href="#">Resultado 1</a>
+        <a href="#">Resultado 2</a>
+        <!-- Agrega más resultados según sea necesario -->
+      </div>
+    </div>
+  </nav>
 
 
-<section class="cursos">
-  <p>Nuestros cursos brindan capacitación en cocina Nacional e Internacional y aportan los conocimientos necesarios para alcanzar la excelencia como profesional de la Alta Cocina.</p>
-  <form class="formcursos">
-    <label  for="cursosonline">Cursos On Line</label>
-    <select id="cursosonline" name="cursosonline">
-    <option value="Técnicaspana">Técnicas de Panaderia</option>
-    <option value="Pasteleriaprof">Panaderia Profesional</option>
-    <option value="Cocinaprof">Cocina Profesional</option>
-  </select>
+  <section class="cursos">
+    <p>Nuestros cursos brindan capacitación en cocina Nacional e Internacional y aportan los conocimientos necesarios
+      para alcanzar la excelencia como profesional de la Alta Cocina.</p>
+    <form class="formcursos">
+      <label for="cursosonline">Cursos On Line</label>
+      <select id="cursosonline" name="cursosonline">
+        <option value="Técnicaspana">Técnicas de Panaderia</option>
+        <option value="Pasteleriaprof">Panaderia Profesional</option>
+        <option value="Cocinaprof">Cocina Profesional</option>
+      </select>
 
-  <label  for="cursosexpress">Cursos Cortos</label>
-  <select id="cursosexpress" name="cursosexpress">
-  <option value="cocinav">Cocina Navideña</option>
-  <option value="catering">Catering</option>
-  <option value="decotor">Decoración de Tortas</option>
-</select>
+      <label for="cursosexpress">Cursos Cortos</label>
+      <select id="cursosexpress" name="cursosexpress">
+        <option value="cocinav">Cocina Navideña</option>
+        <option value="catering">Catering</option>
+        <option value="decotor">Decoración de Tortas</option>
+      </select>
 
 
-<label  for="cocinaint">Cocina Internacional</label>
-<select id="ccocinaint" name="cocinaint">
-<option value="cocjap">Cocina Japonesa y Sushi</option>
-<option value="cocesp">Cocina Española e Italiana</option>
-<option value="cocara">Cocina Arabe</option>
-</select>
+      <label for="cocinaint">Cocina Internacional</label>
+      <select id="ccocinaint" name="cocinaint">
+        <option value="cocjap">Cocina Japonesa y Sushi</option>
+        <option value="cocesp">Cocina Española e Italiana</option>
+        <option value="cocara">Cocina Arabe</option>
+      </select>
 
-<label  for="cocinasal">Cocina Saludable</label>
-<select id="ccocinasal" name="cocinasal">
-<option value="cocveg">Cocina Vegana</option>
-<option value="coctacc">Cocina sin TACC</option>
-<option value="cocdiet">Cocina Diet y Light</option>
-</select>
+      <label for="cocinasal">Cocina Saludable</label>
+      <select id="ccocinasal" name="cocinasal">
+        <option value="cocveg">Cocina Vegana</option>
+        <option value="coctacc">Cocina sin TACC</option>
+        <option value="cocdiet">Cocina Diet y Light</option>
+      </select>
 
-  </form>
-</section>
+    </form>
+  </section>
 
 
 
   <footer>
 
+    <div class="footer-container">
+
+      <div class="footer-item"><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.2991926304617!2d-58.51970222427889!3d-34.46993355044518!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0311d164229%3A0x5ca04511275676df!2sAv.%20Centenario%20600%2C%20B1642%20San%20Isidro%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1712603156571!5m2!1ses-419!2sar"
+          width="150" height="150" border: 10px; allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <div class="footer-item">
+        <h3>Datos de contacto:</h3>
+        <p>
+          <img src="./Img/dirección.png" alt="Icono de dirección" height="25px">
+          Avda. Centenario 600 San Isidro
+        </p>
+        <p>
+          <img src="./Img/tel.png" alt="Icono de teléfono" height="25px">
+          +1 234 567 890 / WhatsApp: +1 987 654 321
+        </p>
+        <p>
+          <img src="./Img/e-mail.png" alt="Icono dee-mail" height="25px">
+          sarto.lali@gmail.com
+        </p>
+        <p>
+          <img src="./Img/face.png" alt="Icono de Facebook" height="25px">
+          https://www.facebook.com/"
+        </p>
+        <p>
+          <img src="./Img/Inst.png" alt="Icono de Instagram" height="25px">
+          https://www.instagram.com/
+        </p>
+
+      </div>
+
+
+
+    </div>
+
   </footer>
 </body>
+
 </html>
