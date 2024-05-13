@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 20;
     padding: 0;
-    background-image: url("./Img/Fondito.jpg");
+    background-image: url("./Img/fondo1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -120,7 +120,7 @@ p {
     display: flex;
     justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
     align-items: center; /* Alinea verticalmente los elementos al centro */
-    padding-left: 100px;
+    padding-left: 50px;
     padding-right: 100px;
     padding-top: 150px;
     border-bottom: none;
@@ -144,5 +144,22 @@ ol {
     color:aqua;
 }
 
+.f-aless {
+    padding-top: 25px;
+    font-size: 16px;
+    color:aqua;
+    text-align: center;
+}
 
+.h-aless {
+    text-align: center;
+}
 
+h4 {
+    color: aqua;
+}
+
+.i-aless {
+    padding: 20px;
+    
+}
