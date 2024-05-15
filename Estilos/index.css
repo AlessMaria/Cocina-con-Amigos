@@ -1,0 +1,27 @@
+.body-container-aless {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: none;
+    
+}
+
+.body-item-aless {
+    img {
+        width: 100%; /* La imagen ocupará todo el ancho del contenedor */
+        height: auto; /* Mantendrá la proporción original */
+    }
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: aqua;
+}
+
+
