@@ -2,30 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 20;
     padding: 0;
-    background-image: url("./Img/fondo1.jpg");
+    background-image: url("../Img/fondo1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.body-container-aless {
-    display: flex;
-    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
-    align-items: center; /* Alinea verticalmente los elementos al centro */
-    padding-left: 250px;
-    padding-right: 250px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    border-bottom: none;
-    
-}
-
-.body-item-aless {
-    /*background-size: 25%;*/
-    img {
-        width: 100%; /* La imagen ocupará todo el ancho del contenedor */
-        height: auto; /* Mantendrá la proporción original */
-    }
-    align-items: center;
 }
 
 header {
@@ -33,6 +12,11 @@ header {
     align-items: center;
     padding: 10px;
     border-bottom: none;
+}
+
+img {
+    max-height: 100px; /* Ajusta la altura máxima del logo */
+    margin-right: 10px;
 }
 
 nav {
@@ -90,32 +74,6 @@ nav ul li a {
     color: #333;
 }
 
-img {
-    max-height: 100px; /* Ajusta la altura máxima del logo */
-    margin-right: 10px;
-}
-
-h1 {
-    font-size: 24px;
-    margin: 0;
-    color: aqua;
-}
-
-p {
-    font-size: 10px;
-    color:aqua;
-}
-
-.p-nosotros {
-    font-size: 16px;
-    color:aqua
-}
-
-.p-aless {
-    font-size: 16px;
-    color:aqua 
-}
-
 .footer-container {
     display: flex;
     justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
@@ -139,27 +97,25 @@ h3 {
     color: aqua;
 }
 
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: aqua;
+}
+
 ol {
     font-size: 16px;
     color:aqua;
 }
 
-.f-aless {
-    padding-top: 25px;
+p {
+    font-size: 10px;
+    color:aqua;
+}
+
+.p-aless {
     font-size: 16px;
     color:aqua;
-    text-align: center;
 }
 
-.h-aless {
-    text-align: center;
-}
 
-h4 {
-    color: aqua;
-}
-
-.i-aless {
-    padding: 20px;
-    
-}
