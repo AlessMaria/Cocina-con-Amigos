@@ -1,11 +1,17 @@
-header{
+
+
+
+body{
   
-    height: 130px;
-    background-image: url("./imgmili/fondo1.jpg");
     background-size: cover;
-    
+    background-image: url("./imgmili/fondo1.jpg");
+    color: rgb(222, 224, 222);
 }
 
+
+.nosotros_mili{
+ margin-left: 50%;
+}
 .h2_mili {
 
    text-align: center; 
@@ -21,17 +27,6 @@ margin-right: 10%;
 
 }
 
-
-
-
-/* footer{
-
-    margin-top: 5%;
-    height: 110px;
-    background-image: url("./imgmili/fondo3.jpg");
-    background-size: cover;
-    
-} */
 
 .footer-container {
     display: flex;
@@ -57,7 +52,7 @@ nav {
     display: flex;
     justify-content: flex-end; /* Alinea los elementos a la derecha */
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom:10px;
    
 }
 
@@ -76,5 +71,5 @@ nav ul li:last-child {
 
 nav ul li a {
     text-decoration: none;
-    color:aqua;
+    color: rgb(222, 224, 222);
 }

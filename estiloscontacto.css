@@ -1,0 +1,93 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+  
+    background-size: cover;
+    background-image: url("./imgmili/fondo1.jpg");
+    color: rgb(222, 224, 222);
+}
+
+
+.form{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 700px;
+}
+
+
+
+label{
+    text-transform: uppercase;
+    margin-top: 15px;
+    color: rgb(240, 240, 234);
+
+}
+
+input{
+    width: 300px;
+    height: 25px;
+    margin-top: 2px;
+}
+
+textarea{
+    width: 300px;
+    height: 150px;
+}
+
+.submit{
+    margin-top: 15px;   
+    margin-bottom: 15px;
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    border-bottom: none;
+   
+
+}
+
+.footer-item {
+    /*background-size: 25%;*/
+    align-items: center;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    align-items: center;
+    padding-bottom: 50px;
+   
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(222, 224, 222);
+}

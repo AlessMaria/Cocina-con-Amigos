@@ -1,0 +1,193 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  
+  background-size: cover;
+  background-image: url("./imgmili/fondo1.jpg"); 
+  color: rgb(222, 224, 222);
+}
+
+.logo3_mili{
+  width: 50px;
+  margin-top: 30px;
+  margin-left: 15px;
+  }
+
+/* Navegador */
+nav {
+  display: flex;
+  justify-content: flex-end; /* Alinea los elementos a la derecha */
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(222, 224, 222);
+}
+
+
+/* section */
+
+.grid_container{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 30px;
+  grid-template-rows: 120px 1fr 1fr;
+  gap: 8px;
+  align-content: center;
+  
+}
+
+.grid_container div{
+  background-color: burlywood;
+  
+}
+
+.pcursos{
+  text-align: center;
+  align-content: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding-right: 40px;
+  height: 150px;
+  grid-area:  1 / 3 / 5 / 6;
+ 
+}
+
+
+
+ .arabe{
+  grid-area: 2 / 2;
+  }  
+
+.arabe img{
+  width: 230px;
+  height: 210px;
+  margin-top: 8px;
+}
+
+
+.vegana{
+  grid-area:  2 / 3;
+}
+
+.vegana img{
+  width: 230px;
+  height: 210px;
+  margin-top: 8px;
+}
+
+.grid_container div p{
+  color: black;
+  font-weight: bold;
+  font-size: 1.25em;
+  text-align: center;
+
+}
+.grid_container div .pcursos{
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  text-align: center;
+  
+
+}
+
+.espanola{
+  grid-area:  2 /4; 
+}
+
+.espanola img{
+  width: 230px;
+  height: 210px;
+  margin-top: 8px;
+}
+
+
+
+.japonesa{
+  grid-area:  2 /5;
+}
+
+.japonesa img {
+  width: 230px;
+  height: 210px;
+  margin-top: 8px;
+}
+
+.navidena{
+  grid-area:3 / 2 ;
+}
+
+.navidena img{
+  width: 230px;
+  height: 210px;
+  margin-top: 8px;
+}
+
+.decogalles{
+  grid-area: 3 / 3;
+}
+
+.decogalles img{
+  width: 230px;
+  height: 210px;
+  margin-top: 8px;
+}
+
+.decotorta{
+  grid-area: 3 / 4;
+  }  
+.decotorta img{
+  width: 230px;
+  height: 210px;
+  margin-top: 8px;
+}
+
+
+.profesional{
+  grid-area:  3 / 5;
+}
+
+.profesional img{
+  width: 230px;
+  height: 210px;
+  margin-top: 8px;
+}
+
+
+
+/* footer */
+.footer-container {
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+  align-items: center; /* Alinea verticalmente los elementos al centro */
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 90px;
+  border-bottom: none;
+
+}
+
+.footer-item {
+  /*background-size: 25%;*/
+  align-items: center;
+  
+}
