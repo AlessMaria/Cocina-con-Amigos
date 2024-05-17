@@ -44,7 +44,12 @@
             max-width: 600px;
             margin: 0 auto;
         }
+
+        .modulos-curso{
+            text-align: center;
+        }
         .modulos-curso ul {
+            text-align: center;
             list-style-type: none;
             padding: 0;
         }
