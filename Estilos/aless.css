@@ -1,7 +1,7 @@
 .f-aless {
     padding-top: 25px;
     font-size: 16px;
-    color: white;
+    color:aqua;
     text-align: center;
 }
 
@@ -10,7 +10,7 @@
 }
 
 h4 {
-    color: white;
+    color:aqua;
 }
 
 .i-aless {
@@ -23,7 +23,4 @@ h4 {
     color: rgb(252, 4, 4);
 }
 
-.utensillos-aless {
-    display:flex;
-    align-items: center;
-}
+
