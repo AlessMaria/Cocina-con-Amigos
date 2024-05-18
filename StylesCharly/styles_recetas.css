@@ -4,32 +4,48 @@
 
 }
 
-body {
+/* body {
 	background: #E9ECF4;
 	color: #000;
 	font-family: 'Roboto', sans-serif;
-}
+} */
 
 .header {
+  width: 800px;
+  margin-left: 500px;
 	background: #12203E;
 	color: #fff;
 	}
 
- 
+  h1 {
+  font-size: 16px;
+	font-weight: bolder;
+	color: black;
+  
+	}
+
+  h3 {
+  font-size: 12px;
+	font-weight: bolder;
+	color: black;
+  
+	}
 
 
 .grid-recetas {
+    width: 800px;
+    margin-left: 500px;
     display: grid;
-    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-columns: 24% 24% 24% 24%;
     gap: 10px;
     background-color: #2196F3;
-    padding: 10px;
+    padding: 5px;
   }
   
   .grid-recetas > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
     font-size: 15px;
   }
 
@@ -45,7 +61,13 @@ body {
   }
 
   .grid-descripcion {
+    border: 10px;
     grid-column: 2/4;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
   }
 
 
@@ -55,4 +77,6 @@ body {
     grid-area: footer;
     text-align: center;
     padding: 0px;
+    width: 800px;
+    margin-left: 500px;
   }
