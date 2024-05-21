@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 20;
     padding: 0;
-    background-image: url("../Img/fondo1.jpg");
+    background-image: url("../imgmili/fondo1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -21,7 +21,7 @@ img {
 
 nav {
     display: flex;
-    justify-content: flex-end; /* Alinea los elementos a la derecha */
+    justify-content: flex-end; 
     align-items: center;
     padding-bottom: 50px;
 }
@@ -41,10 +41,11 @@ nav ul li:last-child {
 
 nav ul li a {
     text-decoration: none;
-    color:aqua;
+    color:white;
+    font-weight: bold;
 }
 
-/* Desplegable para búsqueda */
+
 .search-dropdown {
     position: relative;
     padding-left: 10px;
@@ -74,10 +75,11 @@ nav ul li a {
     color: #333;
 }
 
+
 .footer-container {
     display: flex;
-    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
-    align-items: center; /* Alinea verticalmente los elementos al centro */
+    justify-content: space-between; 
+    align-items: center; 
     padding-left: 50px;
     padding-right: 100px;
     padding-top: 150px;
@@ -86,7 +88,7 @@ nav ul li a {
 }
 
 .footer-item {
-    /*background-size: 25%;*/
+
     align-items: center;
     
 }
@@ -94,28 +96,32 @@ nav ul li a {
 h3 {
     font-size: 12px;
     margin: 0;
-    color: aqua;
+    color:white;
+    font-weight: bold;
 }
 
 h1 {
     font-size: 24px;
     margin: 0;
-    color: aqua;
+    color: rgb(10, 10, 10);
 }
 
 ol {
     font-size: 16px;
-    color:aqua;
+    color:white;
+    font-weight: bold;
 }
 
 p {
     font-size: 10px;
-    color:aqua;
+    color:white;
+    font-weight: bold;
 }
 
 .p-aless {
     font-size: 16px;
-    color:aqua;
+    color:white;
+    font-weight: bold;
 }
 
 

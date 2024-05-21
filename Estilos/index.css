@@ -1,27 +1,66 @@
-.body-container-aless {
-    display: flex;
-    justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
-    align-items: center; /* Alinea verticalmente los elementos al centro */
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    border-bottom: none;
+.body {
+font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 0;
+    background-image: url(../img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 30px;
+    grid-template-rows: 120px 1fr 1fr;
+    gap: 8px;
+    align-content: center;
     
 }
 
-.body-item-aless {
-    img {
-        width: 100%; /* La imagen ocupará todo el ancho del contenedor */
-        height: auto; /* Mantendrá la proporción original */
-    }
-    align-items: center;
+.grid_container div{
+    background-color: burlywood;
+    
 }
 
-h1 {
-    font-size: 24px;
-    margin: 0;
-    color: aqua;
+.recetas {
+    grid-area: 2/2;
 }
 
+.recetas img {
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    text-align: center;
+}
 
+.cursos {
+    grid-area: 2/3;
+}
+
+.cursos img {
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.tips {
+    grid-area: 2/4;
+}
+
+.tips img {
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.utensillos {
+    grid-area: 2/5;
+}
+
+.utensillos img {
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    text-align: center;
+}

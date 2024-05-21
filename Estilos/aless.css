@@ -1,16 +1,23 @@
 .f-aless {
     padding-top: 25px;
     font-size: 16px;
-    color:aqua;
+    color:white;
+    font-weight: bold;
     text-align: center;
 }
 
 .h-aless {
+    padding-left: 450px;
     text-align: center;
+    color:white;
+    font-weight: bold;
 }
 
+
 h4 {
-    color: aqua;
+    padding-left: 800px;
+    color:white;
+    font-weight: bold;
 }
 
 .i-aless {
@@ -20,8 +27,20 @@ h4 {
 
 .p-aless {
     font-size: 16px;
-    color:aqua;
+    color:white;
+    font-weight: bold;
+    text-align: end;
 }
 
+.i-uten {
+    padding-left: 700px;
+}
 
+.p-h4 {
+    padding-left: 500px;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    text-align: end;
+}
 
