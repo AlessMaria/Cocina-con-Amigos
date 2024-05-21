@@ -18,9 +18,9 @@ body{
   }
 
 /* Navegador */
-nav {
+/* nav {
   display: flex;
-  justify-content: flex-end; /* Alinea los elementos a la derecha */
+  justify-content: flex-end; 
   align-items: center;
   padding-bottom: 30px;
 }
@@ -36,12 +36,12 @@ nav ul li {
 
 nav ul li:last-child {
   margin-right: 0;
-}
+} */
 
-nav ul li a {
+/* nav ul li a {
   text-decoration: none;
   color: rgb(222, 224, 222);
-}
+} */
 
 
 /* section */
