@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 20;
     padding: 0;
-    background-image: url("../Img/fondo1.jpg");
+    background-image: url("../imgmili/fondo1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -12,6 +12,7 @@ header {
     align-items: center;
     padding: 10px;
     border-bottom: none;
+    
 }
 
 img {
@@ -41,7 +42,8 @@ nav ul li:last-child {
 
 nav ul li a {
     text-decoration: none;
-    color:aqua;
+    color:white;
+    font-weight: bold;
 }
 
 /* Desplegable para búsqueda */
@@ -94,28 +96,33 @@ nav ul li a {
 h3 {
     font-size: 12px;
     margin: 0;
-    color: aqua;
+    color:white;
+    font-weight: bold;
 }
 
 h1 {
     font-size: 24px;
     margin: 0;
-    color: aqua;
+    color:black;
+    font-weight: bold;
 }
 
 ol {
     font-size: 16px;
-    color:aqua;
+    color:white;
+    font-weight: bold;
 }
 
 p {
     font-size: 10px;
-    color:aqua;
+    color:white;
+    font-weight: bold;;
 }
 
 .p-aless {
     font-size: 16px;
-    color:aqua;
+    color:white;
+    font-weight: bold;
 }
 
 
