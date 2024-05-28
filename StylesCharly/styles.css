@@ -10,22 +10,36 @@
 }
 
 
-body {
-	background: #E9ECF4;
-	color: #000;
+body{
+  
+	background-size: cover;
+	background-image: url("./imgmili/fondo1.jpg"); 
+	color: rgb(222, 224, 222);
 	font-family: 'Roboto', sans-serif;
-}
+  }
+
+
+  h3 {
+    font-size: 16px;
+	font-weight: bolder;
+	color: black;
+  
+	}
+
 
 .headercontenedor {
 
 	height: 80px;
 	max-width: 1000px;
-
+	
+	
 	margin: 2px auto;
 	display: grid;
 	grid-gap: 5px;
+
+
 	
-	grid-template-columns: repeat(5,auto);
+	grid-template-columns: repeat(4,auto);
 	background-color: #2196F3;
 	/* padding: 2px; */
 }
@@ -44,19 +58,19 @@ body {
 
 .contenedor {
 	
-	max-width: 1000px;
-	margin: 2px auto;
+	max-width: 800px;
+	margin-left: 500px;
+	/* margin: 2px auto; */
 	display: grid;
 	grid-gap: 5px;
-	grid-template-columns: repeat(4, 2fr);
-	grid-template-rows: repeat(6, auto);
+	grid-template-columns: repeat(5, 2fr);
+	grid-template-rows: repeat(5, auto);
 
 	grid-template-areas: "header header header header"
 						 "contenido contenido contenido sidebar"
 						 "widget-1 widget-2 widget-3 widget-4"
 						 "widget-5 widget-6 widget-7 widget-8"
-						 " widget-9 widget-10 widget-11 widget-12"
-						 "footer footer footer footer"; 
+						  "footer footer footer footer"; 
 
 
 
@@ -80,6 +94,7 @@ body {
 
 .contenedor .contenido {
 	grid-area: contenido;
+	background: #55a8fd;
 }
 
 .contenedor .sidebar {
