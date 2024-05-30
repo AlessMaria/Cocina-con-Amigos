@@ -1,47 +1,10 @@
 
-*{
-  margin: 0;
-  padding: 0;
-}
-
-body{
-  
-  background-size: cover;
-  background-image: url("./imgmili/fondo1.jpg"); 
-  color: rgb(222, 224, 222);
-}
 
 .logo3_mili{
   width: 50px;
   margin-top: 30px;
   margin-left: 15px;
   }
-
-/* Navegador */
-/* nav {
-  display: flex;
-  justify-content: flex-end; 
-  align-items: center;
-  padding-bottom: 30px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-}
-
-nav ul li {
-  margin-right: 20px;
-}
-
-nav ul li:last-child {
-  margin-right: 0;
-} */
-
-/* nav ul li a {
-  text-decoration: none;
-  color: rgb(222, 224, 222);
-} */
 
 
 /* section */
@@ -190,4 +153,202 @@ nav ul li:last-child {
   /*background-size: 25%;*/
   align-items: center;
   
+}
+
+@media(min-width:300px) and (max-width:576px){
+
+  .grid_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    place-items: center;
+  }
+
+ 
+
+  .pcursos{
+ 
+    font-size: 1em;
+    padding-right: 30px;
+    height: 150px;
+    grid-area:  1 / 1;
+   
+  }
+
+  
+  .arabe{
+    grid-area: 2  / 1;
+    width: 240px;
+    height: 140px;
+    }  
+
+    .arabe p{
+      margin-top: 5px;
+      }  
+        
+  .arabe img{
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+  
+  
+  .vegana{
+    grid-area:  3 / 1;
+    width: 240px;
+    height: 140px;
+  }
+  
+  .vegana img{
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+
+  .vegana p{
+    margin-top: 5px;
+    }  
+  
+  .grid_container div p{
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+  
+  }
+  .grid_container div .pcursos{
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    
+  
+  }
+  
+  .espanola{
+    grid-area:  4 /1; 
+    width: 240px;
+    height: 140px;
+  }
+  
+  .espanola img{
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+
+  .espanola p{
+    margin-top: 5px;
+    }  
+  
+  
+  .japonesa{
+    grid-area:  5 / 1;
+    width: 240px;
+    height: 140px;
+  }
+  
+  .japonesa img {
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    margin-left: 5px;
+  } 
+  .japonesa p{
+    margin-top: 5px;
+    }  
+  
+  
+  .navidena{
+    grid-area: 6 / 1 ;
+    width: 240px;
+    height: 140px;
+  }
+  
+  .navidena img{
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+
+  .navidena p{
+    margin-top: 5px;
+    }  
+  
+  
+  .decogalles{
+    grid-area: 7 / 1;
+    width: 240px;
+    height: 140px;
+  }
+  
+  .decogalles img{
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+
+  .decogalles p{
+    margin-top: 5px;
+    }  
+  
+  
+  .decotorta{
+    grid-area: 8 / 1;
+    width: 240px;
+    height: 140px;
+    }  
+    
+  .decotorta img{
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+
+  .decotorta p{
+    margin-top: 5px;
+    }  
+  
+  
+  
+  .profesional{
+    grid-area:  9 / 1;
+    width: 240px;
+    height: 140px;
+  }
+  
+  .profesional img{
+    width: 230px;
+    height: 210px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+
+  .profesional p{
+    margin-top: 5px;
+    }  
+
+  .footer-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    place-items: center;
+  }
+
+  nav{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    place-items: center;
+  }
+
 }
