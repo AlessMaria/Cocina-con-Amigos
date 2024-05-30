@@ -40,7 +40,9 @@ body{
 
 	
 	grid-template-columns: repeat(4,auto);
-	background-color: #2196F3;
+	/* background-color: #2196F3; */
+
+	background-color: burlywood;
 	/* padding: 2px; */
 }
 
@@ -94,7 +96,8 @@ body{
 
 .contenedor .contenido {
 	grid-area: contenido;
-	background: #55a8fd;
+	/* background: #55a8fd; */
+	background-color: burlywood;
 }
 
 .contenedor .sidebar {
@@ -120,7 +123,8 @@ body{
 .contenedor .widget-10,
 .contenedor .widget-11,
 .contenedor .widget-12{
-	background: #55a8fd;
+	/* background: #55a8fd; */
+	background-color: burlywood;
 	color: #fff;
 	height: 225px;
 	text-align: center;
