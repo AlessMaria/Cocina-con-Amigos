@@ -1,10 +1,5 @@
 
 
-.logo3_mili{
-  width: 50px;
-  margin-top: 30px;
-  margin-left: 15px;
-  }
 
 
 /* section */
@@ -34,8 +29,6 @@
  
 }
 
-
-
  .arabe{
   grid-area: 2 / 2;
   }  
@@ -44,6 +37,7 @@
   width: 230px;
   height: 210px;
   margin-top: 8px;
+  margin-left: 8px;
 }
 
 
@@ -55,6 +49,7 @@
   width: 230px;
   height: 210px;
   margin-top: 8px;
+  margin-left: 8px;
 }
 
 .grid_container div p{
@@ -81,6 +76,7 @@
   width: 230px;
   height: 210px;
   margin-top: 8px;
+  margin-left: 8px;
 }
 
 
@@ -93,6 +89,7 @@
   width: 230px;
   height: 210px;
   margin-top: 8px;
+  margin-left: 8px;
 }
 
 .navidena{
@@ -103,6 +100,7 @@
   width: 230px;
   height: 210px;
   margin-top: 8px;
+  margin-left: 8px;
 }
 
 .decogalles{
@@ -113,6 +111,7 @@
   width: 230px;
   height: 210px;
   margin-top: 8px;
+  margin-left: 8px;
 }
 
 .decotorta{
@@ -122,6 +121,7 @@
   width: 230px;
   height: 210px;
   margin-top: 8px;
+  margin-left: 8px;
 }
 
 
@@ -133,27 +133,10 @@
   width: 230px;
   height: 210px;
   margin-top: 8px;
+  margin-left: 8px;
 }
 
 
-
-/* footer */
-.footer-container {
-  display: flex;
-  justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
-  align-items: center; /* Alinea verticalmente los elementos al centro */
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 90px;
-  border-bottom: none;
-
-}
-
-.footer-item {
-  /*background-size: 25%;*/
-  align-items: center;
-  
-}
 
 @media(min-width:300px) and (max-width:576px){
 
