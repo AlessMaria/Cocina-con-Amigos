@@ -1,5 +1,6 @@
 .f-aless {
     padding-top: 25px;
+    padding-left: 30%;
     font-size: 16px;
     color:white;
     font-weight: bold;
@@ -26,10 +27,11 @@ h4 {
 }
 
 .p-aless {
+    padding-left: 30%;
     font-size: 18px;
     color:white;
     font-weight: bold;
-    text-align: end;
+    text-align: center;
 }
 
 .i-uten {
@@ -37,10 +39,10 @@ h4 {
 }
 
 .p-h4 {
-    padding-left: 500px;
+    padding-left: 30%;
     font-size: 16px;
     color:white;
     font-weight: bold;
-    text-align: end;
+    text-align: center;
 }
 
