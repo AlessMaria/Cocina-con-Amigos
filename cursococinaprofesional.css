@@ -85,3 +85,17 @@
     color:white;
     font-weight: bold;;
 }
+
+
+@media(min-width:300px) and (max-width:576px){
+
+    header {
+        margin-left: 8%;
+        
+    }
+    main {
+      
+        margin-left: 8%;
+    }
+
+}
