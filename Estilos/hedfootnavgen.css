@@ -15,6 +15,25 @@ header {
     
 }
 
+.mainlogo .maintitle{
+    transition: all .5s;
+    transform-origin: left;
+}
+
+.maintitle{
+    transform-origin: right;
+}
+
+.mainlogo:hover{
+    transform: rotate(45deg);
+}
+
+.maintitle:hover{
+    transform: rotate(-15deg);
+}
+
+
+
 img {
     max-height: 100px; /* Ajusta la altura máxima del logo */
     margin-right: 10px;

@@ -7,6 +7,23 @@ font-family: Arial, sans-serif;
     background-size: cover;
 }
 
+.mainlogo .maintitle{
+    transition: all .5s;
+    transform-origin: left;
+}
+
+.maintitle{
+    transform-origin: right;
+}
+
+.mainlogo:hover{
+    transform: rotate(45deg);
+}
+
+.maintitle:hover{
+    transform: rotate(-15deg);
+}
+
 .p-index {
     padding-left: 500px;
     font-size: 20px;
